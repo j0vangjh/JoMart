@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>Jovan's Grocery Store</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <!--<video src="fruit1.mp4" muted loop autoplay></video>-->
+    <nav>
+      <a href="index.html"><img src="JoMart-logos_white.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about1.html">ABOUT</a></li>
+          <li><a href="product1.html">PRODUCTS</a></li>
+          <li><a href="review1.html">REVIEWS</a></li>
+          <li><a href="contact1.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+
+
+    </nav>
+    <h1>About Us</h1>
+    </section>
+<!--about us content-->
+<section class = "about us">
+  <div class="row">
+    <div class="about-col">
+      <h1>We are the World's Biggest Online Grocery Mart</h1>
+      <p>At JoMart, we can assure you that we only sell the freshest products and
+         the products are replenished daily in our store to provide you with the
+          best ingredients when delivered to your house! We offer a large product
+        assortment so that <strong>you</strong> can shop a wide range of brands
+      at great prices for all your unique business needs.</p>
+      <p>If you have any enquiries about our website, rest assured, our company has
+        the most dedicated care team that you will ever find! Any questions? Our
+        friendly business team is here to <strong>help you </strong>every step of the way.</p>
+        <p>Why choose us for business? We provide a corporate rebate scheme where
+          you can get <strong> up to $50</strong> rebate monthly when you spend above
+          $1000 within the calender month which is a very appealing deal to
+          definitely not miss out.</p>
+          <p>Most of our products come from our nearby country Australia so our
+            milks and beef are definitely high graded for your taste of perfection.
+            Food and beverage that is imported to us is <strong>ALWAYS</strong>
+            checked by the Singapore Food Agency before coming to our store. We believe
+            hygiene is the most important factor in our job and we will always provide
+            the best for our customers</p>
+      <a href="product1.html" class="hero-btn red-btn">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+      <img src="meeting.jpg">
+    </div>
+  </div>
+
+
+<!--footer-->
+<section class="footer">
+  <h4>Our Promise To You</h4>
+  <p><strong>"Your hygiene, our priority. Eat fresh, feel fresh."</strong></p>
+  <div class="icons">
+    <a href="https://www.instagram.com/jo_marttt/">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=100084269202499">
+      <i class="fa-brands fa-facebook"></i>
+    </a>
+    <a href="https://twitter.com/Jo_Marttt">
+      <i class="fa-brands fa-twitter"></i>
+    </a>
+    <a href="https://www.instagram.com/jo_marttt/">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+  </div>
+  <p>Made with <i class="fa-brands fa-gratipay"></i> by Jovan Goh</p>
+</section>
+
+
+
+<!---Javascript--->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+  </script>
+
+  </body>
+  </html>

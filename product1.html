@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>Jovan's Grocery Store</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <!--<video src="fruit1.mp4" muted loop autoplay></video>-->
+    <nav>
+      <a href="index.html"><img src="JoMart-logos_white.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about1.html">ABOUT</a></li>
+          <li><a href="product1.html">PRODUCTS</a></li>
+          <li><a href="review1.html">REVIEWS</a></li>
+          <li><a href="contact1.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+
+
+    </nav>
+    <h1>Our Products</h1>
+    </section>
+
+<!--features-->
+<section class="features">
+  <h1>Features that we offer</h1>
+  <p>We only love to provide our customer's with the best experience</p>
+
+  <div class="row">
+    <div class="features-col">
+      <h3>Fresh and Organic</h3>
+      <p>Only the fresh and the best products are being sold in our mart, no
+      less!</p>
+    </div>
+    <div class="features-col">
+      <h3>Free Delivery</h3>
+      <p>No worries! The ingredients you ordered will be right at your footstep
+      as no delivery fee will be charged.</p>
+    </div>
+    <div class="features-col">
+      <h3>Fast Arrival</h3>
+      <p>Rest assured, the ingredients you ordered will be delivered the very next day
+      to keep our promise of serving you the freshest items.</p>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!--products-->
+<section class="products">
+  <h1>Our High-in-demand products</h1>
+  <p>The following items are our highly popular items as they are all imported
+  from Australia with the best quality</p>
+
+  <div class="row">
+    <div class="products-col">
+      <img src="beef.jpg">
+      <h3>Sirloin Beef</h3>
+      <p>Our sirloin steaks are one of a kind as they are so juicy and tender as
+      reviewed by many of our customers so make sure not to miss this!</p>
+    </div>
+    <div class="products-col">
+      <img src="milk.jpg">
+      <h3>Fresh Milk</h3>
+      <p>Our fresh milk is undoubtly the best in the market right now with all the important
+      nutrients in it and its low in fat which makes it the best choice for our customers!</p>
+    </div>
+    <div class="products-col">
+      <img src="tomato.jpg">
+      <h3>Fresh Tomatoes</h3>
+      <p>Tomatoes are very beneficial for our health and ours are not only nutritious but
+      also very juicy inside which will make your mouth pop with flavours!</p>
+    </div>
+  </div>
+</section>
+
+
+<!--footer-->
+<section class="footer">
+  <h4>Our Promise To You</h4>
+  <p><strong>"Your hygiene, our priority. Eat fresh, feel fresh."</strong></p>
+  <div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+  </div>
+  <p>Made with <i class="fa-brands fa-gratipay"></i> by Jovan Goh</p>
+</section>
+
+
+
+<!---Javascript--->
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+  </script>
+
+  </body>
+  </html>

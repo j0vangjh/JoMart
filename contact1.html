@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>Jovan's Grocery Store</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <!--<video src="fruit1.mp4" muted loop autoplay></video>-->
+    <nav>
+      <a href="index.html"><img src="JoMart-logos_white.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about1.html">ABOUT</a></li>
+          <li><a href="product1.html">PRODUCTS</a></li>
+          <li><a href="review1.html">REVIEWS</a></li>
+          <li><a href="contact1.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+
+
+    </nav>
+    <h1>Contact Us</h1>
+  </section>
+  <!--contact us content-->
+  <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7441021107047!2d103.88998565061246!3d1.3295879620051376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17f4e7287257%3A0x2fd6693eb0c97864!2sUbi%20Rd%201!5e0!3m2!1sen!2ssg!4v1659205945446!5m2!1sen!2ssg"
+     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+  <section class="contact-us">
+    <div class="row">
+      <div class="contact-col">
+        <div>
+          <i class="fa fa-home"></i>
+          <span>
+            <h5>79 Ubi Rd 1 Office Tower 1 #12-634</h5>
+            <p>Nearest mrt is Ubi stop and nearest bus is 139</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <span>
+            <h5>+65 82739234</h5>
+            <p>Monday to Saturday, 10AM to 7PM</p>
+          </span>
+        </div>
+      </div>
+      <div class="contact-col">
+        <form action="https://formspree.io/f/moqbaebw" method="post">
+          <input type="text" name="name" placeholder="Enter your name" required>
+          <input type="email" name="email" placeholder="Enter your email address" required>
+          <input type="text" name="subject" placeholder="Enter your subject" required>
+          <textarea rows="8" name="message" placeholder="Message" required></textarea>
+          <button type="submit" class="hero-btn red-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+      </section>
+
+
+
+
+  <!--footer-->
+  <section class="footer">
+    <h4>Our Promise To You</h4>
+    <p><strong>"Your hygiene, our priority. Eat fresh, feel fresh."</strong></p>
+    <div class="icons">
+      <a href="https://www.instagram.com/jo_marttt/">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=100084269202499">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="https://twitter.com/Jo_Marttt">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com/jo_marttt/">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+    </div>
+    <p>Made with <i class="fa-brands fa-gratipay"></i> by Jovan Goh</p>
+  </section>
+
+
+
+  <!---Javascript--->
+  <script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+  </script>
+
+</body>
+</html>
